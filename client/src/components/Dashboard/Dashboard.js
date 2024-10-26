@@ -27,12 +27,12 @@ const Dashboard = () => {
 
     return (
         <div className="dashboard">
-            <h2>Mood and Diary Tracker</h2>
+            <h2>Mood Tracker</h2>
             <form onSubmit={handleSubmit}>
                 <label>
                     Mood:
                     <select value={mood} onChange={handleMoodChange} required>
-                        <option value="">Select your mood</option>
+                        <option value="">How are you doing?</option>
                         <option value="happy">Happy</option>
                         <option value="sad">Sad</option>
                         <option value="anxious">Anxious</option>
