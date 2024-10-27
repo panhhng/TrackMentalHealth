@@ -1,0 +1,31 @@
+/* src/components/Dashboard/Dashboard.css */
+
+.dashboard {
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard h1 {
+    color: #333;
+}
+
+.dashboard p {
+    margin-bottom: 20px;
+}
+
+.dashboard textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.dashboard {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
